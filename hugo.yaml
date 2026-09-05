@@ -1,0 +1,31 @@
+baseURL: "https://xtkevin.github.io/"  # 替换为你的最终网站地址
+title: "xtkevin's blog"                    # 你的网站标题
+theme: "PaperMod"                       # 启用 PaperMod 主题
+
+# 网站参数配置
+params:
+  defaultTheme: auto                    # 默认主题: auto, light, dark
+  ShowReadingTime: true                 # 显示阅读时间
+  ShowShareButtons: true                # 显示分享按钮
+  ShowBreadCrumbs: true                 # 显示面包屑导航
+  ShowCodeCopyButtons: true             # 显示代码复制按钮
+
+# 导航菜单配置
+menu:
+  main:
+    - identifier: archives
+      name: 归档
+      url: /archives/
+      weight: 10
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 40
